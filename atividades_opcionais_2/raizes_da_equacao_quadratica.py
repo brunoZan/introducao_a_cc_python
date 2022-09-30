@@ -5,6 +5,7 @@ c = float(input("digite o valor de C: "))
 
 delta = b ** 2 - 4 * a * c
 
+
 if delta == 0:
 	raiz1 = (-b + math.sqrt(delta)) / (2 * a)
 	print("a raiz desta equação é", raiz1)
