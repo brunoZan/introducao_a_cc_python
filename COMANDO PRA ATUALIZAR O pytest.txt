@@ -1,0 +1,5 @@
+aba que abriu na hora de instalar o pytest
+AvendSyberCaptura
+
+COMANDO PRA ATUALIZAR O pytest
+python -m pip install --upgrade pip
