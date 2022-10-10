@@ -1,0 +1,33 @@
+entrada(n=5 m=2)
+
+pc:2
+user:2
+pc:1
+
+function((n=5 m=2)
+	counter:
+	i = 1
+	while i < n
+		
+		if((m+1)*i == n)
+			counter++
+		i++
+	if(counter > 0)
+		eleEMultiplo
+		user_começa()
+	else:
+		pc_começa()
+
+pc_começa(n, m)
+	counter;
+	i = 1
+	while i < n
+		
+		if((m+1)*i == n)
+			m - 1
+		i++
+	if(counter > 0)
+		eleEMultiplo
+		user_começa()
+	else:
+		pc_começa()
