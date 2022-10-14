@@ -20,4 +20,5 @@ def computador_escolhe_jogada(n, m):
 		return quantia
 	return m
 
-
+ def usuario_escolhe_jogada(n, m):
+ 	
