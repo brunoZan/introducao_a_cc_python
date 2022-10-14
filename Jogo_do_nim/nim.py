@@ -20,5 +20,9 @@ def computador_escolhe_jogada(n, m):
 		return quantia
 	return m
 
- def usuario_escolhe_jogada(n, m):
- 	
+def usuario_escolhe_jogada(n, m):
+        jogada = int(input("Quantas peças voçè vai tirar? "));
+        while(jogada > m or jogada <= 0):
+                jogada = int(input("Quantas peças voçè vai tirar? "))
+        return jogada
+
