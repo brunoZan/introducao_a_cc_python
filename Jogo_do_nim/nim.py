@@ -26,3 +26,6 @@ def usuario_escolhe_jogada(n, m):
                 jogada = int(input("Quantas peças voçè vai tirar? "))
         return jogada
 
+
+# :
+
